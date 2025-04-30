@@ -16,8 +16,8 @@ pipeline {
 
         stage('Tests') {
             steps {
-                //sh './mvnw test'
-                sh './mvnw test -DskipTests=true'
+                sh './mvnw test'
+               
 
             }
         }
